@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Синтетична стрічка</title>
+    <item>
+      <title><![CDATA[<b>Майстерня</b> &amp; ідеї]]></title>
+      <link>https://www.design.knukim.edu.ua/workshop/?utm_medium=rss</link>
+      <pubDate>Thu, 26 Nov 2026 11:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Короткий анонс.</p><script>bad()</script>]]></description>
+      <media:thumbnail url="https://www.design.knukim.edu.ua/workshop.jpg" />
+    </item>
+  </channel>
+</rss>

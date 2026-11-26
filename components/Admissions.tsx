@@ -42,6 +42,7 @@ export function Admissions() {
             Усе важливе в одному місці: обрати програму, підготуватися та
             зрозуміти наступний крок.
           </p>
+          <Link href="/stats" className={cx("ku-text-link")}>Вступ у цифрах: дані минулих кампаній →</Link>
           <div className={cx("ku-note")}>
             <span className={cx("ku-note-icon")}>i</span>
             <p>

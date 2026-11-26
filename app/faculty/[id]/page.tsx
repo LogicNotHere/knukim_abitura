@@ -1,6 +1,10 @@
 import { notFound } from "next/navigation";
 import { DATA } from "../../../lib/data";
 import { FacultyDetail } from "../../../components/Screens";
+import { sourceForFaculty } from "../../../lib/socials";
+import { getNews } from "../../../lib/news";
+
+export const revalidate = 1800;
 
 type PageProps = { params: Promise<{ id: string }> };
 
@@ -18,5 +22,7 @@ export default async function Page({ params }: PageProps) {
   const { id } = await params;
   const faculty = DATA.faculties.find((item) => item.id === id);
   if (!faculty) notFound();
-  return <FacultyDetail faculty={faculty} />;
+  const source = sourceForFaculty(faculty.id);
+  const news = source ? await getNews(source.key) : undefined;
+  return <FacultyDetail faculty={faculty} source={source} news={news} />;
 }

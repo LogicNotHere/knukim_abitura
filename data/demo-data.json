@@ -2,26 +2,72 @@
   "meta": {
     "year": 2027,
     "notice": "Демонстраційні дані",
-    "description": "Тестовий сайт для обговорення майбутнього сервісу. Структура, дати, ціни, викладачі та контакти — вигадані приклади. Фото ілюструють творчі заняття."
+    "description": "Тестовий сайт для обговорення майбутнього сервісу. Структура, дати, ціни, викладачі та контакти — вигадані приклади. Фото ілюструють творчі заняття.",
+    "eventsAnchorDate": "2026-11-26"
   },
   "interests": [
-    { "id": "film", "label": "Кіно й телебачення" },
-    { "id": "media", "label": "Медіа та PR" },
-    { "id": "music", "label": "Музика" },
-    { "id": "dance", "label": "Хореографія" },
-    { "id": "stage", "label": "Сцена й акторство" },
-    { "id": "design", "label": "Дизайн і fashion" },
-    { "id": "management", "label": "Івенти й менеджмент" },
-    { "id": "tourism", "label": "Гостинність і туризм" }
+    {
+      "id": "film",
+      "label": "Кіно й телебачення"
+    },
+    {
+      "id": "media",
+      "label": "Медіа та PR"
+    },
+    {
+      "id": "music",
+      "label": "Музика"
+    },
+    {
+      "id": "dance",
+      "label": "Хореографія"
+    },
+    {
+      "id": "stage",
+      "label": "Сцена й акторство"
+    },
+    {
+      "id": "design",
+      "label": "Дизайн і fashion"
+    },
+    {
+      "id": "management",
+      "label": "Івенти й менеджмент"
+    },
+    {
+      "id": "tourism",
+      "label": "Гостинність і туризм"
+    }
   ],
   "activities": [
-    { "id": "perform", "label": "Виступати" },
-    { "id": "create", "label": "Створювати контент" },
-    { "id": "organize", "label": "Організовувати" },
-    { "id": "lead", "label": "Керувати" },
-    { "id": "design", "label": "Проєктувати" },
-    { "id": "people", "label": "Працювати з людьми" },
-    { "id": "tech", "label": "Працювати з технікою" }
+    {
+      "id": "perform",
+      "label": "Виступати"
+    },
+    {
+      "id": "create",
+      "label": "Створювати контент"
+    },
+    {
+      "id": "organize",
+      "label": "Організовувати"
+    },
+    {
+      "id": "lead",
+      "label": "Керувати"
+    },
+    {
+      "id": "design",
+      "label": "Проєктувати"
+    },
+    {
+      "id": "people",
+      "label": "Працювати з людьми"
+    },
+    {
+      "id": "tech",
+      "label": "Працювати з технікою"
+    }
   ],
   "faculties": [
     {
@@ -31,7 +77,11 @@
       "description": "Від першого задуму до фінальних титрів. Спробуй режисуру, камеру, звук і монтаж у спільній роботі над екранною історією.",
       "image": "photographer",
       "interest": "film",
-      "tags": ["Режисура", "Медіавиробництво", "Операторство"],
+      "tags": [
+        "Режисура",
+        "Медіавиробництво",
+        "Операторство"
+      ],
       "careers": [
         "Режисер / режисерка",
         "Оператор / операторка",
@@ -52,7 +102,11 @@
       "description": "Знайди свій голос у редакційній роботі, інтерв’ю та комунікаційних кампаніях.",
       "image": "creative",
       "interest": "media",
-      "tags": ["Журналістика", "PR", "Цифрові медіа"],
+      "tags": [
+        "Журналістика",
+        "PR",
+        "Цифрові медіа"
+      ],
       "careers": [
         "Журналіст / журналістка",
         "PR-менеджер / PR-менеджерка",
@@ -72,7 +126,11 @@
       "description": "Розкрий власне звучання через вокал, аранжування та роботу зі сценою.",
       "image": "music",
       "interest": "music",
-      "tags": ["Вокал", "Звук", "Продюсування"],
+      "tags": [
+        "Вокал",
+        "Звук",
+        "Продюсування"
+      ],
       "careers": [
         "Вокаліст / вокалістка",
         "Саундпродюсер / саундпродюсерка",
@@ -92,7 +150,10 @@
       "description": "Досліджуй рух і створюй хореографію через щоденну практику та сценічні етюди.",
       "image": "dance",
       "interest": "dance",
-      "tags": ["Сучасний танець", "Хореографія"],
+      "tags": [
+        "Сучасний танець",
+        "Хореографія"
+      ],
       "careers": [
         "Хореограф / хореографка",
         "Виконавець / виконавиця",
@@ -112,7 +173,10 @@
       "description": "Працюй із роллю, мовою та тілом. Створюй історії разом зі своєю творчою командою.",
       "image": "stage",
       "interest": "stage",
-      "tags": ["Акторство", "Режисура сцени"],
+      "tags": [
+        "Акторство",
+        "Режисура сцени"
+      ],
       "careers": [
         "Актор / акторка",
         "Ведучий / ведуча",
@@ -132,7 +196,11 @@
       "description": "Збирай портфоліо з візуальних айдентик, предметів і колекцій. Перевіряй свої ідеї у матеріалі.",
       "image": "art",
       "interest": "design",
-      "tags": ["Графіка", "Мода", "Візуальні системи"],
+      "tags": [
+        "Графіка",
+        "Мода",
+        "Візуальні системи"
+      ],
       "careers": [
         "Графічний дизайнер / дизайнерка",
         "Дизайнер / дизайнерка одягу",
@@ -152,7 +220,11 @@
       "description": "Перетворюй творчий задум на подію. Плануй програму, бюджет, команду та досвід гостей.",
       "image": "students",
       "interest": "management",
-      "tags": ["Івенти", "Продюсування", "Менеджмент"],
+      "tags": [
+        "Івенти",
+        "Продюсування",
+        "Менеджмент"
+      ],
       "careers": [
         "Івент-менеджер / івент-менеджерка",
         "Продюсер / продюсерка подій",
@@ -172,7 +244,11 @@
       "description": "Досліджуй сервіс, туристичні маршрути та роботу закладів через практичні кейси.",
       "image": "hospitality",
       "interest": "tourism",
-      "tags": ["Готелі й ресторани", "Туризм", "Сервіс"],
+      "tags": [
+        "Готелі й ресторани",
+        "Туризм",
+        "Сервіс"
+      ],
       "careers": [
         "Менеджер / менеджерка гостинності",
         "Організатор / організаторка подорожей",
@@ -251,7 +327,10 @@
         "Медіаетика",
         "Комунікаційна стратегія"
       ],
-      "facilities": ["Навчальна редакція", "Подкаст-студія"],
+      "facilities": [
+        "Навчальна редакція",
+        "Подкаст-студія"
+      ],
       "teacher": "t3"
     },
     {
@@ -264,7 +343,10 @@
         "Слуховий аналіз",
         "Основи аранжування"
       ],
-      "facilities": ["Вокальний клас", "Студія запису"],
+      "facilities": [
+        "Вокальний клас",
+        "Студія запису"
+      ],
       "teacher": "t4"
     },
     {
@@ -272,8 +354,15 @@
       "faculty": "dance",
       "name": "Кафедра сучасної хореографії",
       "description": "Практика руху, імпровізації та постановки власних танцювальних робіт.",
-      "disciplines": ["Техніка танцю", "Композиція руху", "Сценічна практика"],
-      "facilities": ["Танцювальна зала", "Репетиційна сцена"],
+      "disciplines": [
+        "Техніка танцю",
+        "Композиція руху",
+        "Сценічна практика"
+      ],
+      "facilities": [
+        "Танцювальна зала",
+        "Репетиційна сцена"
+      ],
       "teacher": "t5"
     },
     {
@@ -281,8 +370,15 @@
       "faculty": "stage",
       "name": "Кафедра акторської майстерності",
       "description": "Майстерня сценічного партнерства, роботи з текстом і пошуку образу.",
-      "disciplines": ["Сценічна мова", "Акторський етюд", "Робота з текстом"],
-      "facilities": ["Камерна сцена", "Клас сценічного руху"],
+      "disciplines": [
+        "Сценічна мова",
+        "Акторський етюд",
+        "Робота з текстом"
+      ],
+      "facilities": [
+        "Камерна сцена",
+        "Клас сценічного руху"
+      ],
       "teacher": "t5"
     },
     {
@@ -295,7 +391,10 @@
         "Візуальна композиція",
         "Дизайн-проєктування"
       ],
-      "facilities": ["Графічна майстерня", "Навчальне ательє"],
+      "facilities": [
+        "Графічна майстерня",
+        "Навчальне ательє"
+      ],
       "teacher": "t6"
     },
     {
@@ -303,8 +402,15 @@
       "faculty": "management",
       "name": "Кафедра менеджменту творчих проєктів",
       "description": "Командна робота з планування, виробництва та оцінки подій.",
-      "disciplines": ["Бюджет події", "Продюсування", "Управління командою"],
-      "facilities": ["Проєктна студія", "Командний коворкінг"],
+      "disciplines": [
+        "Бюджет події",
+        "Продюсування",
+        "Управління командою"
+      ],
+      "facilities": [
+        "Проєктна студія",
+        "Командний коворкінг"
+      ],
       "teacher": "t3"
     },
     {
@@ -317,7 +423,10 @@
         "Туристичні маршрути",
         "Управління закладом"
       ],
-      "facilities": ["Ресторанна лабораторія", "Студія маршрутів"],
+      "facilities": [
+        "Ресторанна лабораторія",
+        "Студія маршрутів"
+      ],
       "teacher": "t6"
     }
   ],
@@ -328,9 +437,15 @@
       "faculty": "film",
       "department": "directing",
       "interest": "film",
-      "activities": ["create", "lead", "people"],
+      "activities": [
+        "create",
+        "lead",
+        "people"
+      ],
       "level": "bachelor",
-      "formats": ["day"],
+      "formats": [
+        "day"
+      ],
       "creative": true,
       "price": 48000,
       "code": "DEMO-B21.01",
@@ -343,7 +458,10 @@
         "Монтаж і звук",
         "Виробництво короткого метру"
       ],
-      "teachers": ["t1", "t2"]
+      "teachers": [
+        "t1",
+        "t2"
+      ]
     },
     {
       "id": "media-production",
@@ -351,9 +469,16 @@
       "faculty": "film",
       "department": "camera",
       "interest": "film",
-      "activities": ["create", "tech", "design"],
+      "activities": [
+        "create",
+        "tech",
+        "design"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": true,
       "price": 46000,
       "code": "DEMO-B21.02",
@@ -366,7 +491,9 @@
         "Кольорокорекція",
         "Спільний знімальний проєкт"
       ],
-      "teachers": ["t2"]
+      "teachers": [
+        "t2"
+      ]
     },
     {
       "id": "screen-master",
@@ -374,9 +501,16 @@
       "faculty": "film",
       "department": "television",
       "interest": "film",
-      "activities": ["create", "lead", "organize"],
+      "activities": [
+        "create",
+        "lead",
+        "organize"
+      ],
       "level": "master",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": true,
       "price": 52000,
       "code": "DEMO-M21.01",
@@ -388,7 +522,10 @@
         "Дослідження аудиторії",
         "Магістерський екранний проєкт"
       ],
-      "teachers": ["t1", "t2"]
+      "teachers": [
+        "t1",
+        "t2"
+      ]
     },
     {
       "id": "journalism",
@@ -396,9 +533,16 @@
       "faculty": "media",
       "department": "communications",
       "interest": "media",
-      "activities": ["create", "people", "tech"],
+      "activities": [
+        "create",
+        "people",
+        "tech"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": false,
       "price": 38000,
       "code": "DEMO-C7.01",
@@ -410,7 +554,9 @@
         "Мультимедійні історії",
         "Редакторська практика"
       ],
-      "teachers": ["t3"]
+      "teachers": [
+        "t3"
+      ]
     },
     {
       "id": "pr",
@@ -418,9 +564,16 @@
       "faculty": "media",
       "department": "communications",
       "interest": "media",
-      "activities": ["create", "organize", "people"],
+      "activities": [
+        "create",
+        "organize",
+        "people"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": false,
       "price": 40000,
       "code": "DEMO-C7.02",
@@ -432,7 +585,9 @@
         "Робота з аудиторіями",
         "Публічні виступи"
       ],
-      "teachers": ["t3"]
+      "teachers": [
+        "t3"
+      ]
     },
     {
       "id": "vocal",
@@ -440,9 +595,14 @@
       "faculty": "music",
       "department": "sound",
       "interest": "music",
-      "activities": ["perform", "create"],
+      "activities": [
+        "perform",
+        "create"
+      ],
       "level": "bachelor",
-      "formats": ["day"],
+      "formats": [
+        "day"
+      ],
       "creative": true,
       "price": 45000,
       "code": "DEMO-B5.01",
@@ -454,7 +614,9 @@
         "Ансамбль",
         "Студійна практика"
       ],
-      "teachers": ["t4"]
+      "teachers": [
+        "t4"
+      ]
     },
     {
       "id": "sound-production",
@@ -462,9 +624,16 @@
       "faculty": "music",
       "department": "sound",
       "interest": "music",
-      "activities": ["create", "tech", "lead"],
+      "activities": [
+        "create",
+        "tech",
+        "lead"
+      ],
       "level": "master",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": true,
       "price": 49000,
       "code": "DEMO-M5.02",
@@ -476,7 +645,9 @@
         "Музичний проєкт",
         "Продюсерська практика"
       ],
-      "teachers": ["t4"]
+      "teachers": [
+        "t4"
+      ]
     },
     {
       "id": "choreography",
@@ -484,9 +655,15 @@
       "faculty": "dance",
       "department": "movement",
       "interest": "dance",
-      "activities": ["perform", "create", "people"],
+      "activities": [
+        "perform",
+        "create",
+        "people"
+      ],
       "level": "bachelor",
-      "formats": ["day"],
+      "formats": [
+        "day"
+      ],
       "creative": true,
       "price": 43000,
       "code": "DEMO-B6.01",
@@ -498,7 +675,9 @@
         "Імпровізація",
         "Хореографічна постановка"
       ],
-      "teachers": ["t5"]
+      "teachers": [
+        "t5"
+      ]
     },
     {
       "id": "acting",
@@ -506,9 +685,15 @@
       "faculty": "stage",
       "department": "acting",
       "interest": "stage",
-      "activities": ["perform", "create", "people"],
+      "activities": [
+        "perform",
+        "create",
+        "people"
+      ],
       "level": "bachelor",
-      "formats": ["day"],
+      "formats": [
+        "day"
+      ],
       "creative": true,
       "price": 47000,
       "code": "DEMO-B7.01",
@@ -520,7 +705,10 @@
         "Пластика",
         "Робота перед камерою"
       ],
-      "teachers": ["t5", "t1"]
+      "teachers": [
+        "t5",
+        "t1"
+      ]
     },
     {
       "id": "graphic-design",
@@ -528,9 +716,16 @@
       "faculty": "design",
       "department": "visual",
       "interest": "design",
-      "activities": ["design", "create", "tech"],
+      "activities": [
+        "design",
+        "create",
+        "tech"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": true,
       "price": 44000,
       "code": "DEMO-B2.01",
@@ -542,7 +737,9 @@
         "Айдентика",
         "Цифрові інтерфейси"
       ],
-      "teachers": ["t6"]
+      "teachers": [
+        "t6"
+      ]
     },
     {
       "id": "fashion",
@@ -550,9 +747,14 @@
       "faculty": "design",
       "department": "visual",
       "interest": "design",
-      "activities": ["design", "create"],
+      "activities": [
+        "design",
+        "create"
+      ],
       "level": "bachelor",
-      "formats": ["day"],
+      "formats": [
+        "day"
+      ],
       "creative": true,
       "price": 46000,
       "code": "DEMO-B2.02",
@@ -564,7 +766,9 @@
         "Конструювання",
         "Авторська колекція"
       ],
-      "teachers": ["t6"]
+      "teachers": [
+        "t6"
+      ]
     },
     {
       "id": "event-management",
@@ -572,9 +776,17 @@
       "faculty": "management",
       "department": "events",
       "interest": "management",
-      "activities": ["organize", "lead", "people", "create"],
+      "activities": [
+        "organize",
+        "lead",
+        "people",
+        "create"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": false,
       "price": 37000,
       "code": "DEMO-D3.01",
@@ -586,7 +798,9 @@
         "Робота з командою",
         "Виробничий практикум"
       ],
-      "teachers": ["t3"]
+      "teachers": [
+        "t3"
+      ]
     },
     {
       "id": "creative-management",
@@ -594,9 +808,16 @@
       "faculty": "management",
       "department": "events",
       "interest": "management",
-      "activities": ["organize", "lead", "people"],
+      "activities": [
+        "organize",
+        "lead",
+        "people"
+      ],
       "level": "master",
-      "formats": ["part", "day"],
+      "formats": [
+        "part",
+        "day"
+      ],
       "creative": false,
       "price": 42000,
       "code": "DEMO-M3.02",
@@ -608,7 +829,9 @@
         "Фінансова модель",
         "Проєктна лабораторія"
       ],
-      "teachers": ["t3"]
+      "teachers": [
+        "t3"
+      ]
     },
     {
       "id": "hospitality",
@@ -616,9 +839,16 @@
       "faculty": "tourism",
       "department": "service",
       "interest": "tourism",
-      "activities": ["people", "lead", "organize"],
+      "activities": [
+        "people",
+        "lead",
+        "organize"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": false,
       "price": 36000,
       "code": "DEMO-J2.01",
@@ -630,7 +860,9 @@
         "Досвід гостя",
         "Управління закладом"
       ],
-      "teachers": ["t6"]
+      "teachers": [
+        "t6"
+      ]
     },
     {
       "id": "tourism",
@@ -638,9 +870,16 @@
       "faculty": "tourism",
       "department": "service",
       "interest": "tourism",
-      "activities": ["people", "organize", "design"],
+      "activities": [
+        "people",
+        "organize",
+        "design"
+      ],
       "level": "bachelor",
-      "formats": ["day", "part"],
+      "formats": [
+        "day",
+        "part"
+      ],
       "creative": false,
       "price": 35000,
       "code": "DEMO-J3.02",
@@ -652,7 +891,9 @@
         "Дизайн маршруту",
         "Практика гостинності"
       ],
-      "teachers": ["t6"]
+      "teachers": [
+        "t6"
+      ]
     }
   ],
   "courses": [
@@ -767,9 +1008,7 @@
       "id": "open-day",
       "title": "Побач університет зсередини",
       "category": "open",
-      "date": "20",
-      "month": "ЛЮТОГО",
-      "fullDate": "20 лютого 2027, 12:00",
+      "date": "2026-11-26",
       "location": "Офлайн · демо-кампус",
       "image": "creative",
       "description": "Уявна прогулянка навчальними просторами та знайомство з творчими напрямами.",
@@ -777,15 +1016,15 @@
         "Знайомство з напрямами",
         "Огляд навчальних просторів",
         "Запитання до приймальної комісії"
-      ]
+      ],
+      "time": "12:00",
+      "group": "applicants"
     },
     {
       "id": "film-meeting",
       "title": "Як народжується короткий метр",
       "category": "creative",
-      "date": "27",
-      "month": "ЛЮТОГО",
-      "fullDate": "27 лютого 2027, 15:00",
+      "date": "2026-11-28",
       "location": "Онлайн · демонстраційна зустріч",
       "image": "photographer",
       "description": "Розбір шляху від першої ідеї до монтажу та відповіді про творчу підготовку.",
@@ -793,15 +1032,15 @@
         "Сценарна заявка",
         "Підготовка творчої роботи",
         "Відкрита розмова про кіно"
-      ]
+      ],
+      "time": "15:00",
+      "group": "applicants"
     },
     {
       "id": "admission-qa",
       "title": "Вступ 2027: розкласти все по кроках",
       "category": "consult",
-      "date": "03",
-      "month": "БЕРЕЗНЯ",
-      "fullDate": "03 березня 2027, 17:00",
+      "date": "2026-11-30",
       "location": "Онлайн · демо-консультація",
       "image": "students",
       "description": "Пояснюємо структуру вступного шляху. Офіційні правила та строки потрібно буде підтвердити.",
@@ -809,15 +1048,15 @@
         "Як обрати програму",
         "Документи вступника",
         "Де перевіряти офіційні умови"
-      ]
+      ],
+      "time": "17:00",
+      "group": "applicants"
     },
     {
       "id": "course-start",
       "title": "Старт підготовчих майстерень",
       "category": "courses",
-      "date": "06",
-      "month": "БЕРЕЗНЯ",
-      "fullDate": "06 березня 2027, 11:00",
+      "date": "2026-12-02",
       "location": "Онлайн та офлайн · демо",
       "image": "art",
       "description": "Знайди свій підготовчий курс і переглянь приклад першого заняття.",
@@ -825,15 +1064,15 @@
         "Знайомство з майстернями",
         "Як проходять заняття",
         "Вибір формату курсу"
-      ]
+      ],
+      "time": "11:00",
+      "group": "applicants"
     },
     {
       "id": "portfolio",
       "title": "Творчий перегляд: твоє портфоліо",
       "category": "creative",
-      "date": "13",
-      "month": "БЕРЕЗНЯ",
-      "fullDate": "13 березня 2027, 14:00",
+      "date": "2026-12-10",
       "location": "Офлайн · демо-майстерня",
       "image": "design",
       "description": "Демонстраційний формат розмови про творчі роботи й наступні кроки підготовки.",
@@ -841,15 +1080,15 @@
         "Як обрати роботи",
         "Як презентувати задум",
         "План подальшої практики"
-      ]
+      ],
+      "time": "14:00",
+      "group": "applicants"
     },
     {
       "id": "parents",
       "title": "Зустріч для вступників і батьків",
       "category": "consult",
-      "date": "20",
-      "month": "БЕРЕЗНЯ",
-      "fullDate": "20 березня 2027, 12:00",
+      "date": "2026-12-17",
       "location": "Онлайн · демо-консультація",
       "image": "creative",
       "description": "Запитання про навчання, формати, приклади вартості та підготовку до вступу.",
@@ -857,6 +1096,136 @@
         "Формати навчання",
         "Приклади вартості",
         "Запитання про підготовку"
+      ],
+      "time": "12:00",
+      "group": "applicants"
+    },
+    {
+      "id": "design-lab",
+      "title": "Від ідеї до ескізу",
+      "category": "creative",
+      "date": "2026-12-24",
+      "time": "14:00",
+      "group": "applicants",
+      "image": "design",
+      "location": "Онлайн · демо-майстерня",
+      "description": "Спробуй коротке творче завдання й обговори свій задум.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "music-workshop",
+      "title": "Знайомство зі звуковою студією",
+      "category": "courses",
+      "date": "2027-01-07",
+      "time": "13:00",
+      "group": "applicants",
+      "image": "music",
+      "location": "Офлайн · демо-студія",
+      "description": "Демонстраційна зустріч про підготовку до музичних програм.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "admission-route",
+      "title": "Обери свій вступний маршрут",
+      "category": "consult",
+      "date": "2027-02-04",
+      "time": "16:00",
+      "group": "applicants",
+      "image": "students",
+      "location": "Онлайн · демо-консультація",
+      "description": "Порівняй навчальні напрями та склади власний план підготовки.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "student-projects",
+      "title": "Вечір студентських проєктів",
+      "category": "creative",
+      "date": "2026-11-29",
+      "time": "18:00",
+      "group": "university",
+      "image": "stage",
+      "location": "Офлайн · демо-сцена",
+      "description": "Уявний показ творчих робіт і розмова з командами.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "creative-forum",
+      "title": "Зустріч творчих спільнот",
+      "category": "open",
+      "date": "2027-01-21",
+      "time": "12:00",
+      "group": "university",
+      "image": "creative",
+      "location": "Демо-кампус",
+      "description": "Ілюстративний формат знайомства студентських команд.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "memory-dialogue",
+      "title": "Розмова про пам’ять і культуру",
+      "category": "memory",
+      "date": "2026-12-01",
+      "time": "12:00",
+      "group": "ukraine",
+      "image": "art",
+      "location": "Онлайн · демонстраційна пам’ятна зустріч",
+      "description": "Уявна пам’ятна зустріч. Дата зміщується для демо й не є датою державного свята.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "heritage-day",
+      "title": "Майстерня культурної спадщини",
+      "category": "memory",
+      "date": "2026-12-31",
+      "time": "11:00",
+      "group": "ukraine",
+      "image": "creative",
+      "location": "Демо-майстерня",
+      "description": "Ілюстративна зустріч про збереження пам’яті. Дата не є офіційною пам’ятною датою.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
+      ]
+    },
+    {
+      "id": "culture-dialogue",
+      "title": "Культура єдності: відкритий діалог",
+      "category": "memory",
+      "date": "2027-02-18",
+      "time": "15:00",
+      "group": "ukraine",
+      "image": "students",
+      "location": "Онлайн · демонстраційна зустріч",
+      "description": "Уявна пам’ятна подія. Дату наведено лише для показу календаря.",
+      "agenda": [
+        "Знайомство з темою",
+        "Спільне обговорення",
+        "Запитання учасників"
       ]
     }
   ],
@@ -976,6 +1345,95 @@
       "phone": "+380 (00) 000-00-04",
       "hours": "Пн–Пт, 09:00–17:00",
       "description": "Запитання про роботу майбутнього сервісу для вступників."
+    }
+  ],
+  "materials": [
+    {
+      "id": "material-1",
+      "tag": "МАТЕРІАЛИ",
+      "title": "Матеріал 1",
+      "text": "Матеріал готується. Тут з'явиться пояснювальна стаття для вступників.",
+      "label": "Скоро"
+    },
+    {
+      "id": "material-2",
+      "tag": "МАТЕРІАЛИ",
+      "title": "Матеріал 2",
+      "text": "Матеріал готується. Тут з'явиться пояснювальна стаття для вступників.",
+      "label": "Скоро"
+    },
+    {
+      "id": "material-3",
+      "tag": "МАТЕРІАЛИ",
+      "title": "Матеріал 3",
+      "text": "Матеріал готується. Тут з'явиться пояснювальна стаття для вступників.",
+      "label": "Скоро"
+    }
+  ],
+  "demoNews": [
+    {
+      "id": "demo-news-1",
+      "sourceId": "university",
+      "publishedAt": "2026-11-26T10:00:00.000Z",
+      "title": "Знайомство з творчими напрямами",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "creative"
+    },
+    {
+      "id": "demo-news-2",
+      "sourceId": "ikitb",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "title": "Як підготувати першу творчу роботу",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "photographer"
+    },
+    {
+      "id": "demo-news-3",
+      "sourceId": "design",
+      "publishedAt": "2026-11-24T10:00:00.000Z",
+      "title": "Ідеї для майбутнього портфоліо",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "design"
+    },
+    {
+      "id": "demo-news-4",
+      "sourceId": "fzgij",
+      "publishedAt": "2026-11-23T10:00:00.000Z",
+      "title": "Розмова про медіа і комунікації",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "students"
+    },
+    {
+      "id": "demo-news-5",
+      "sourceId": "fmm",
+      "publishedAt": "2026-11-22T10:00:00.000Z",
+      "title": "Музика починається зі спроби",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "music"
+    },
+    {
+      "id": "demo-news-6",
+      "sourceId": "dance",
+      "publishedAt": "2026-11-21T10:00:00.000Z",
+      "title": "Рух, сцена та командна робота",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "stage"
+    },
+    {
+      "id": "demo-news-7",
+      "sourceId": "fimfshb",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "title": "Від задуму до творчого проєкту",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "art"
+    },
+    {
+      "id": "demo-news-8",
+      "sourceId": "ftke",
+      "publishedAt": "2026-11-19T10:00:00.000Z",
+      "title": "Знайомство з театральною майстернею",
+      "excerpt": "Демонстраційна новина для показу без інтернету. Це вигаданий приклад, а не публікація університету.",
+      "image": "creative"
     }
   ]
 }

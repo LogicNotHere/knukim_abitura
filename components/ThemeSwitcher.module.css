@@ -1,0 +1,7 @@
+.switcher { position: fixed; z-index: 10; right: 18px; bottom: 18px; width: 330px; max-width: calc(100vw - 36px); border: 1px solid var(--ku-border); border-radius: var(--ku-radius); background: var(--ku-paper); color: var(--ku-ink); box-shadow: var(--ku-floating-shadow); padding: 12px; }
+.switcher > span { display: block; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 800; margin-bottom: 8px; }
+.switcher > div { display: flex; gap: 6px; }
+.switcher button { flex: 1; display: flex; gap: 7px; justify-content: center; align-items: center; padding: 11px 7px; border: 1px solid var(--ku-border); border-radius: var(--ku-button-radius); color: var(--ku-ink); background: var(--ku-paper); font-size: 10px; }
+.switcher button b { font-size: 13px; }
+.switcher button[aria-pressed=true] { background: var(--ku-purple); color: var(--ku-on-accent); border-color: var(--ku-purple); }
+@media(max-width: 600px) { .switcher { right: 12px; bottom: 12px; width: 320px; max-width: calc(100vw - 24px); } }

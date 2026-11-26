@@ -34,4 +34,5 @@ export const eventCategories: Record<string, string> = {
   consult: "Консультації",
   courses: "Підготовчі курси",
   creative: "Творчі конкурси",
+  memory: "Пам’ятні зустрічі",
 };

@@ -2,6 +2,7 @@
 import type { Faculty, Course, Teacher, Program, DemoEvent } from "../lib/data";
 
 import Link from "next/link";
+import { dateLabel } from "../lib/events";
 import { Fragment } from "react";
 import {
   DATA,
@@ -242,8 +243,8 @@ export function MapGraphic() {
           preserveAspectRatio="xMidYMid slice"
           aria-hidden="true"
         >
-          <rect width="600" height="430" fill="#ebece4"></rect>
-          <g fill="#d8dfce">
+          <rect width="600" height="430" fill="var(--ku-map-base)"></rect>
+          <g fill="var(--ku-map-block)">
             <rect x="20" y="20" width="145" height="70" rx="12"></rect>
             <rect x="217" y="20" width="115" height="85" rx="12"></rect>
             <rect x="380" y="5" width="196" height="90" rx="12"></rect>
@@ -252,13 +253,13 @@ export function MapGraphic() {
             <rect x="227" y="300" width="120" height="100" rx="12"></rect>
             <rect x="400" y="311" width="160" height="100" rx="12"></rect>
           </g>
-          <g stroke="#fff" strokeWidth="26" fill="none">
+          <g stroke="var(--ku-map-road)" strokeWidth="26" fill="none">
             <path d="M-20 125H620"></path>
             <path d="M-20 298H620"></path>
             <path d="M185 -10V450"></path>
             <path d="M370 -10V450"></path>
           </g>
-          <g stroke="#bdc4b4" strokeWidth="1" fill="none">
+          <g stroke="var(--ku-map-edge)" strokeWidth="1" fill="none">
             <path d="M-20 125H620"></path>
             <path d="M-20 298H620"></path>
             <path d="M185 -10V450"></path>
@@ -270,14 +271,14 @@ export function MapGraphic() {
             width="105"
             height="90"
             rx="10"
-            fill="#7144ed"
+            fill="var(--ku-purple)"
           ></rect>
           <path
             d="M278 130c-18 0-32 14-32 32 0 24 32 52 32 52s32-28 32-52c0-18-14-32-32-32"
-            fill="#151515"
+            fill="var(--ku-dark)"
           ></path>
-          <circle cx="278" cy="162" r="10" fill="#d4ff5a"></circle>
-          <text x="420" y="136" fontFamily="Arial" fontSize="10" fill="#757b6b">
+          <circle cx="278" cy="162" r="10" fill="var(--ku-warm)"></circle>
+          <text x="420" y="136" fontFamily="Arial" fontSize="10" fill="var(--ku-map-ink)">
             вул. Творча (умовна)
           </text>
         </svg>
@@ -366,8 +367,8 @@ export function EventRow({ event }: { event: DemoEvent }) {
     <>
       <article className={cx("ku-event-row")}>
         <div className={cx("ku-event-date")}>
-          <strong>{event.date}</strong>
-          <span>{event.month}</span>
+          <strong>{Number(event.date.slice(8))}</strong>
+          <span>{dateLabel(event.date, { month: "short" })}</span>
         </div>
         <div>
           <h3>{event.title}</h3>

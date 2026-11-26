@@ -1,0 +1,73 @@
+[
+  {
+    "key": "university",
+    "name": "Університет",
+    "shortLabel": "Університет",
+    "color": "#1316A4",
+    "feedUrl": "https://knukim.edu.ua/feed/",
+    "wordpressUrl": "https://knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10"
+  },
+  {
+    "key": "ikitb",
+    "name": "Кіно і телебачення",
+    "shortLabel": "Кіно",
+    "color": "#2C2BAA",
+    "feedUrl": "https://ikitb.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://ikitb.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "film"
+  },
+  {
+    "key": "design",
+    "name": "Дизайн і реклама",
+    "shortLabel": "Дизайн",
+    "color": "#2C2BAA",
+    "feedUrl": "https://design.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://design.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "design"
+  },
+  {
+    "key": "fzgij",
+    "name": "PR, журналістика та інформаційна політика",
+    "shortLabel": "Медіа",
+    "color": "#2C2BAA",
+    "feedUrl": "https://fzgij.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://fzgij.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "media"
+  },
+  {
+    "key": "fmm",
+    "name": "Музичне мистецтво",
+    "shortLabel": "Музика",
+    "color": "#2C2BAA",
+    "feedUrl": "https://fmm.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://fmm.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "music"
+  },
+  {
+    "key": "dance",
+    "name": "Хореографічне мистецтво",
+    "shortLabel": "Хореографія",
+    "color": "#2C2BAA",
+    "feedUrl": "https://dance.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://dance.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "dance"
+  },
+  {
+    "key": "fimfshb",
+    "name": "Менеджмент і креативні індустрії",
+    "shortLabel": "Менеджмент",
+    "color": "#2C2BAA",
+    "feedUrl": "https://fimfshb.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://fimfshb.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "management"
+  },
+  {
+    "key": "ftke",
+    "name": "Театр, кіно та естрада",
+    "shortLabel": "Театр",
+    "color": "#2C2BAA",
+    "feedUrl": "https://ftke.knukim.edu.ua/feed/",
+    "wordpressUrl": "https://ftke.knukim.edu.ua/wp-json/wp/v2/posts?_embed&per_page=10",
+    "facultyId": "stage"
+  }
+]

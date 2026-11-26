@@ -2,6 +2,11 @@
 import type { Faculty, Department, Program } from "../lib/data";
 
 import Link from "next/link";
+import type { NewsResult } from "../lib/news";
+import type { NewsSource } from "../lib/socials";
+import { FacultyNews } from "./News";
+import { FacultySocials } from "./Socials";
+import { ProgramStats } from "./Stats";
 import { Fragment } from "react";
 import { DATA, find, money, levelLabel, formatLabel } from "../lib/data";
 import { filteredFaculties } from "../lib/catalog";
@@ -208,7 +213,7 @@ export function FacultyCatalog() {
     </>
   );
 }
-export function FacultyDetail({ faculty }: { faculty: Faculty }) {
+export function FacultyDetail({ faculty, source, news }: { faculty: Faculty; source?: NewsSource; news?: NewsResult }) {
   const programs = DATA.programs.filter(
     (program) => program.faculty === faculty.id,
   );
@@ -484,6 +489,8 @@ export function FacultyDetail({ faculty }: { faculty: Faculty }) {
             </section>
           </>
         )}
+        <FacultyNews source={source} news={news} />
+        <FacultySocials facultyId={faculty.id} />
         <div className={cx("ku-note")}>
           <span className={cx("ku-note-icon")}>?</span>
           <p>
@@ -732,6 +739,7 @@ export function ProgramDetail({ program }: { program: Program }) {
           </div>
           {demo()}
         </section>
+        <ProgramStats programId={program.id} />
         <section className={cx("ku-section")}>
           <div className={cx("ku-program-intro")}>
             <div>

@@ -1,0 +1,26 @@
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 25px; }
+.chips button { border: 1px solid var(--ku-border); border-radius: var(--ku-pill-radius, 40px); padding: 9px 14px; background: var(--ku-paper); color: var(--ku-ink); font-size: 11px; font-weight: 700; text-align: left; }
+.chips button[aria-pressed=true] { background: var(--ku-purple); border-color: var(--ku-purple); color: var(--ku-on-accent, #fff); }
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; animation: arrive .25s ease-out; }
+.card { overflow: hidden; border: 1px solid var(--ku-border); border-radius: var(--ku-radius, 22px); background: var(--ku-paper); box-shadow: var(--ku-card-shadow, none); display: flex; flex-direction: column; min-width: 0; }
+.visual { background: var(--ku-dark, #151515); color: var(--ku-dark-accent, #d4ff5a); min-height: 235px; padding: 25px; display: flex; align-items: center; flex-direction: column; justify-content: center; gap: 25px; }
+.visual svg { width: 90px; height: 90px; flex-shrink: 0; }
+.visual span { font-size: 12px; text-align: center; color: var(--ku-on-dark, #fff); overflow-wrap: anywhere; max-width: 100%; }
+.body { padding: 25px; display: flex; flex: 1; flex-direction: column; gap: 17px; }
+.body > span { text-transform: uppercase; letter-spacing: 1px; font-size: 10px; color: var(--ku-gray); font-weight: 800; }
+.body h3 { font-size: 23px; line-height: 1.2; letter-spacing: -.7px; overflow-wrap: anywhere; }
+.body p { color: var(--ku-gray); font-size: 13px; line-height: 1.6; }
+.body a { font-size: 12px; font-weight: 800; margin-top: auto; padding-top: 12px; }
+.body a:hover, .faculty a:hover, .footer a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.faculty { padding: 26px 0 10px; }
+.faculty h3 { font-size: 21px; margin-bottom: 20px; }
+.faculty > div { display: flex; flex-wrap: wrap; gap: 14px 22px; }
+.faculty a { display: inline-flex; gap: 8px; font-size: 13px; font-weight: 700; align-items: center; }
+.faculty svg, .footer svg { width: 17px; height: 17px; flex-shrink: 0; }
+.footer { display: flex; flex-direction: column; gap: 13px; }
+.footer a { display: flex !important; align-items: center; gap: 10px; }
+.missing { color: var(--ku-gray); font-size: 13px; margin-top: 25px !important; }
+@keyframes arrive { from { opacity: .3; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+@media(max-width: 1100px) { .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media(max-width: 600px) { .cards { grid-template-columns: 1fr; } .visual { min-height: 225px; } .visual svg { width: 95px; height: 95px; } .body { padding: 24px; } .body h3 { font-size: 27px; } }
+@media(prefers-reduced-motion: reduce) { .cards { animation: none; } }

@@ -2,26 +2,41 @@
 import type { ReactNode } from "react";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
+import { usePathname, useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useRef, useState } from "react";
 import { DATA, eventCategories, find } from "../lib/data";
+import { eventDateLabel } from "../lib/events";
 import { useDemo } from "./DemoProvider";
 import { button, cx, image } from "./Common";
+import { UniversitySocials } from "./Socials";
+import studentGuides from "../data/student-guides.json";
+import { ThemeSwitcher } from "./ThemeSwitcher";
 const navigation = [
   ["/", "Головна"],
   ["/admissions", "Вступ 2027"],
   ["/faculties", "Факультети"],
   ["/courses", "Курси"],
   ["/events", "Події"],
+  ["/news", "Новини"],
   ["/contacts", "Контакти"],
 ];
 function DemoDialog() {
-  const { dialog, setDialog } = useDemo();
+  const { dialog, setDialog, events } = useDemo();
   const ref = useRef<HTMLDialogElement>(null);
   const pathname = usePathname();
+  const query = useSearchParams().toString();
   useEffect(() => {
     setDialog(null);
-  }, [pathname, setDialog]);
+  }, [pathname, query, setDialog]);
+  useEffect(() => {
+    const close = () => setDialog(null);
+    window.addEventListener("popstate", close);
+    window.addEventListener("hashchange", close);
+    return () => {
+      window.removeEventListener("popstate", close);
+      window.removeEventListener("hashchange", close);
+    };
+  }, [setDialog]);
   useEffect(() => {
     if (dialog && !ref.current?.open) ref.current?.showModal();
     if (!dialog && ref.current?.open) ref.current.close();
@@ -48,7 +63,7 @@ function DemoDialog() {
       </div>
     );
   else if (dialog?.type === "event") {
-    const event = find("events", dialog.id);
+    const event = events.find((item) => item.id === dialog.id)!;
     content = (
       <>
         <div className={cx("ku-dialog-photo")}>
@@ -60,7 +75,7 @@ function DemoDialog() {
           </span>
           <h2 id="ku-dialog-title">{event.title}</h2>
           <p>
-            <b>{event.fullDate}</b>
+            <b>{eventDateLabel(event)}</b>
             <br />
             {event.location}
           </p>
@@ -250,7 +265,12 @@ export function SiteShell({ children }: { children: ReactNode }) {
             <Link href="/contacts">Приймальна комісія</Link>
             <Link href="/courses">Підготовчі курси</Link>
             <Link href="/events">Події для вступників</Link>
-            <Link href="/contacts">Соцмережі: демо-контакти</Link>
+            <Link href="/news">Новини</Link>
+            <UniversitySocials />
+          </div>
+          <div>
+            <b>Студентам</b>
+            {studentGuides.homeCards.map((card) => <Link key={card.id} href={card.href}>{card.title}</Link>)}
           </div>
         </div>
         <div className={cx("ku-container ku-footer-bottom")}>
@@ -267,7 +287,8 @@ export function SiteShell({ children }: { children: ReactNode }) {
           </a>
         </div>
       </footer>
-      <DemoDialog />
+      <Suspense fallback={null}><DemoDialog /></Suspense>
+      <Suspense fallback={null}><ThemeSwitcher /></Suspense>
     </div>
   );
 }

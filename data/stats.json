@@ -1,0 +1,258 @@
+{
+  "note": "Демонстраційні дані. У робочій версії — відкриті дані ЄДЕБО / vstup.osvita.ua, дата знімка:",
+  "sourceText": "Майбутні джерела: ЄДЕБО та Вступ.ОСВІТА. Цифри можуть змінюватися до завершення кампанії.",
+  "years": [
+    {
+      "year": 2025,
+      "snapshotDate": "2025-09-15",
+      "rows": [
+        {
+          "programId": "film-directing",
+          "applications": 107,
+          "competitionOffers": 2,
+          "licensedPlaces": 60,
+          "budgetPlaces": 8,
+          "passingScore": 142.5
+        },
+        {
+          "programId": "media-production",
+          "applications": 352,
+          "competitionOffers": 3,
+          "licensedPlaces": 75,
+          "budgetPlaces": 15,
+          "passingScore": 149.8
+        },
+        {
+          "programId": "screen-master",
+          "applications": 234,
+          "competitionOffers": 4,
+          "licensedPlaces": 90,
+          "budgetPlaces": 0,
+          "passingScore": 157.1
+        },
+        {
+          "programId": "journalism",
+          "applications": 379,
+          "competitionOffers": 2,
+          "licensedPlaces": 105,
+          "budgetPlaces": 29,
+          "passingScore": 164.4
+        },
+        {
+          "programId": "pr",
+          "applications": 168,
+          "competitionOffers": 3,
+          "licensedPlaces": 60,
+          "budgetPlaces": 12,
+          "passingScore": 171.7
+        },
+        {
+          "programId": "vocal",
+          "applications": 286,
+          "competitionOffers": 4,
+          "licensedPlaces": 75,
+          "budgetPlaces": 19,
+          "passingScore": 179.0
+        },
+        {
+          "programId": "sound-production",
+          "applications": 325,
+          "competitionOffers": 2,
+          "licensedPlaces": 90,
+          "budgetPlaces": 26,
+          "passingScore": 186.3
+        },
+        {
+          "programId": "choreography",
+          "applications": 393,
+          "competitionOffers": 3,
+          "licensedPlaces": 105,
+          "budgetPlaces": 9,
+          "passingScore": 149.6
+        },
+        {
+          "programId": "acting",
+          "applications": 218,
+          "competitionOffers": 4,
+          "licensedPlaces": 60,
+          "budgetPlaces": 16,
+          "passingScore": 156.9
+        },
+        {
+          "programId": "graphic-design",
+          "applications": 263,
+          "competitionOffers": 2,
+          "licensedPlaces": 75,
+          "budgetPlaces": 23,
+          "passingScore": 164.2
+        },
+        {
+          "programId": "fashion",
+          "applications": 139,
+          "competitionOffers": 3,
+          "licensedPlaces": 90,
+          "budgetPlaces": 30,
+          "passingScore": 171.5
+        },
+        {
+          "programId": "event-management",
+          "applications": 194,
+          "competitionOffers": 4,
+          "licensedPlaces": 105,
+          "budgetPlaces": 13,
+          "passingScore": 178.8
+        },
+        {
+          "programId": "creative-management",
+          "applications": 157,
+          "competitionOffers": 2,
+          "licensedPlaces": 60,
+          "budgetPlaces": 0,
+          "passingScore": 186.1
+        },
+        {
+          "programId": "hospitality",
+          "applications": 407,
+          "competitionOffers": 3,
+          "licensedPlaces": 75,
+          "budgetPlaces": 27,
+          "passingScore": 149.4
+        },
+        {
+          "programId": "tourism",
+          "applications": 275,
+          "competitionOffers": 4,
+          "licensedPlaces": 90,
+          "budgetPlaces": 10,
+          "passingScore": 156.7
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "snapshotDate": "2026-09-15",
+      "rows": [
+        {
+          "programId": "film-directing",
+          "applications": 426,
+          "competitionOffers": 2,
+          "licensedPlaces": 60,
+          "budgetPlaces": 8,
+          "passingScore": 144.6
+        },
+        {
+          "programId": "media-production",
+          "applications": 294,
+          "competitionOffers": 3,
+          "licensedPlaces": 75,
+          "budgetPlaces": 15,
+          "passingScore": 151.9
+        },
+        {
+          "programId": "screen-master",
+          "applications": 126,
+          "competitionOffers": 4,
+          "licensedPlaces": 90,
+          "budgetPlaces": 0,
+          "passingScore": 159.2
+        },
+        {
+          "programId": "journalism",
+          "applications": 371,
+          "competitionOffers": 2,
+          "licensedPlaces": 105,
+          "budgetPlaces": 29,
+          "passingScore": 166.5
+        },
+        {
+          "programId": "pr",
+          "applications": 253,
+          "competitionOffers": 3,
+          "licensedPlaces": 60,
+          "budgetPlaces": 12,
+          "passingScore": 173.8
+        },
+        {
+          "programId": "vocal",
+          "applications": 398,
+          "competitionOffers": 4,
+          "licensedPlaces": 75,
+          "budgetPlaces": 19,
+          "passingScore": 181.1
+        },
+        {
+          "programId": "sound-production",
+          "applications": 187,
+          "competitionOffers": 2,
+          "licensedPlaces": 90,
+          "budgetPlaces": 26,
+          "passingScore": 188.4
+        },
+        {
+          "programId": "choreography",
+          "applications": 305,
+          "competitionOffers": 3,
+          "licensedPlaces": 105,
+          "budgetPlaces": 9,
+          "passingScore": 151.7
+        },
+        {
+          "programId": "acting",
+          "applications": 344,
+          "competitionOffers": 4,
+          "licensedPlaces": 60,
+          "budgetPlaces": 16,
+          "passingScore": 159.0
+        },
+        {
+          "programId": "graphic-design",
+          "applications": 412,
+          "competitionOffers": 2,
+          "licensedPlaces": 75,
+          "budgetPlaces": 23,
+          "passingScore": 166.3
+        },
+        {
+          "programId": "fashion",
+          "applications": 237,
+          "competitionOffers": 3,
+          "licensedPlaces": 90,
+          "budgetPlaces": 30,
+          "passingScore": 173.6
+        },
+        {
+          "programId": "event-management",
+          "applications": 282,
+          "competitionOffers": 4,
+          "licensedPlaces": 105,
+          "budgetPlaces": 13,
+          "passingScore": 180.9
+        },
+        {
+          "programId": "creative-management",
+          "applications": 158,
+          "competitionOffers": 2,
+          "licensedPlaces": 60,
+          "budgetPlaces": 0,
+          "passingScore": 188.2
+        },
+        {
+          "programId": "hospitality",
+          "applications": 213,
+          "competitionOffers": 3,
+          "licensedPlaces": 75,
+          "budgetPlaces": 27,
+          "passingScore": 151.5
+        },
+        {
+          "programId": "tourism",
+          "applications": 176,
+          "competitionOffers": 4,
+          "licensedPlaces": 90,
+          "budgetPlaces": 10,
+          "passingScore": 158.8
+        }
+      ]
+    }
+  ]
+}

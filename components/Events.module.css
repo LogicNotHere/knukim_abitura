@@ -1,0 +1,58 @@
+.home { background: var(--ku-dark, #151515); color: var(--ku-on-dark, #fff); padding: 46px; border-radius: var(--ku-radius, 24px); }
+.homeTop { display: grid; grid-template-columns: .85fr 1fr 1fr .55fr; gap: 26px; align-items: start; }
+.today { display: grid; line-height: 1.15; gap: 10px; }
+.today > span:first-child, .caption { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; }
+.today strong { font-size: clamp(80px, 9vw, 130px); letter-spacing: -7px; }
+.today > span:last-child { font-size: 17px; }
+.home .caption { color: var(--ku-dark-muted, #c8c8c8); margin-bottom: 14px; }
+.home h2.caption { font-size: 12px; line-height: 1.3; letter-spacing: 1px; }
+.highlight { display: flex; width: 100%; flex-direction: column; align-items: start; gap: 12px; text-align: left; border: 1px solid var(--ku-dark-border, #555); border-radius: var(--ku-radius, 16px); padding: 22px; background: var(--ku-dark-card, #252525); color: var(--ku-on-dark, #fff); }
+.highlight strong { font-size: clamp(18px, 2vw, 23px); line-height: 1.25; letter-spacing: -.5px; }
+.highlight time, .highlight > span, .highlight small { font-size: 12px; color: var(--ku-dark-muted, #d5d5d5); }
+.highlight:hover { border-color: var(--ku-on-dark, #fff); }
+.allLink { font-weight: 800; font-size: 17px; color: var(--ku-dark-accent, #d4ff5a) !important; }
+.rows { margin-top: 36px; }
+.row { border: 0; border-top: 1px solid var(--ku-dark-border, #555); background: none; color: inherit; padding: 23px 0; width: 100%; text-align: left; display: grid; grid-template-columns: 135px minmax(0, 1fr) minmax(90px, .5fr) 130px; gap: 20px; align-items: center; }
+.row time { font-size: 13px; font-weight: 700; }
+.row strong { font-size: 18px; line-height: 1.3; }
+.row > span { font-size: 12px; opacity: .85; }
+.row small { padding: 7px 12px; font-size: 11px; border: 1px solid currentColor; border-radius: var(--ku-pill-radius, 50px); justify-self: end; }
+.row:hover strong { text-decoration: underline; text-underline-offset: 4px; }
+.demo { font-size: 11px; color: var(--ku-dark-muted, #d5d5d5); margin-top: 20px !important; }
+.noEvent { font-size: 20px; padding: 20px 0; }
+.events { padding-bottom: 80px; }
+.variants, .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 22px; }
+.variants button, .tabs button, .monthHead button { border: 1px solid var(--ku-border); color: var(--ku-ink); background: var(--ku-paper); padding: 11px 17px; border-radius: var(--ku-button-radius, 8px); font-weight: 700; }
+.variants button[aria-pressed=true], .tabs button[aria-pressed=true] { background: var(--ku-purple); color: var(--ku-on-accent, #fff); border-color: var(--ku-purple); }
+.tabs button { flex: 1; font-size: 17px; }
+.count { color: var(--ku-gray); font-size: 13px; margin-bottom: 22px !important; }
+.nearest { display: grid; grid-template-columns: .7fr 1.3fr; gap: 30px; background: var(--ku-dark, #151515); color: var(--ku-on-dark, #fff); border-radius: var(--ku-radius, 22px); padding: 30px; margin-bottom: 32px; }
+.calendarLayout { display: grid; grid-template-columns: 1.4fr 1fr; gap: 30px; }
+.calendar, .dayDetails { min-width: 0; border: 1px solid var(--ku-border); border-radius: var(--ku-radius, 18px); padding: 24px; }
+.monthHead { display: flex; gap: 12px; align-items: center; justify-content: space-between; margin-bottom: 26px; }
+.monthHead h2 { font-size: 20px; text-transform: capitalize; text-align: center; }
+.monthHead button { padding: 10px 14px; }
+.weekdays, .days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 5px; }
+.weekdays { text-align: center; font-size: 12px; color: var(--ku-gray); margin-bottom: 10px; }
+.days button { aspect-ratio: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; border: 1px solid var(--ku-border); border-radius: var(--ku-button-radius, 8px); color: var(--ku-ink); background: var(--ku-soft); min-width: 0; }
+.days button[data-outside=true] { color: var(--ku-gray); background: transparent; }
+.days button[aria-current=date] { box-shadow: inset 0 0 0 2px var(--ku-purple); }
+.days button[aria-pressed=true] { background: var(--ku-purple); color: var(--ku-on-accent, #fff); }
+.days small { display: flex; gap: 3px; align-items: center; font-size: 9px; }
+.dot { width: 4px; height: 4px; border-radius: 50%; background: currentColor; }
+.dayDetails h2 { font-size: 22px; margin-bottom: 20px; }
+.dayDetails > p { color: var(--ku-gray); }
+.dayDetails .highlight + .highlight { margin-top: 14px; }
+.agenda { background: var(--ku-dark, #151515); color: var(--ku-on-dark, #fff); border-radius: var(--ku-radius, 22px); padding: 34px; }
+.agenda section + section, .weeks section + section { margin-top: 46px; }
+.agenda h2, .weeks h2 { font-size: 26px; text-transform: capitalize; margin-bottom: 25px; }
+.posters { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+.poster { border: 1px solid var(--ku-border); border-radius: var(--ku-radius, 18px); overflow: hidden; background: var(--ku-paper); }
+.posterImage { position: relative; height: 210px; }
+.posterImage > span { position: absolute; left: 15px; bottom: 15px; padding: 8px 12px; background: var(--ku-dark, #151515); color: var(--ku-on-dark, #fff); border-radius: var(--ku-button-radius, 8px); font-size: 13px; }
+.posterBody { display: grid; gap: 15px; padding: 24px; }
+.posterBody h3 { font-size: 23px; line-height: 1.2; }
+.posterBody p, .posterBody time { font-size: 13px; color: var(--ku-gray); }
+.empty { padding: 40px; background: var(--ku-soft); border-radius: var(--ku-radius, 18px); }
+@media(max-width: 1000px) { .homeTop { grid-template-columns: .8fr 1fr 1fr; } .allLink { grid-column: 1/-1; } .row { grid-template-columns: 120px 1fr; } .row small { justify-self: start; } .row > span { grid-column: 2; } .calendarLayout { grid-template-columns: 1fr; } .posters { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media(max-width: 600px) { .home { padding: 24px; } .homeTop { grid-template-columns: 1fr; gap: 24px; } .today { display: block; } .today strong { display: block; font-size: 100px; } .today > span:last-child { display: block; } .caption { margin-bottom: 10px !important; } .row { gap: 10px; grid-template-columns: 1fr; padding: 22px 0; } .row > span { grid-column: auto; } .row strong { font-size: 20px; } .row small { justify-self: start; } .rows { margin-top: 25px; } .tabs button { font-size: 13px; padding: 11px 8px; } .variants button { font-size: 12px; padding: 10px; } .nearest { grid-template-columns: 1fr; padding: 22px; gap: 18px; } .calendar, .dayDetails { padding: 14px; } .monthHead h2 { font-size: 16px; } .days { gap: 3px; } .days button { font-size: 13px; } .agenda { padding: 24px; } .posters { grid-template-columns: 1fr; } }

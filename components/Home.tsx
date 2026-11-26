@@ -18,9 +18,16 @@ import {
   CourseCard,
   MapGraphic,
   FinalCTA,
-  EventRow,
 } from "./Cards";
-export function Home() {
+import type { NewsResult } from "../lib/news";
+import { HomeCalendar } from "./Events";
+import { StatsPreview } from "./Stats";
+import { NewsPreview } from "./News";
+import { SocialPreview } from "./Socials";
+import { StudentCards } from "./StudentGuides";
+import { Poll } from "./Poll";
+
+export function Home({ news }: { news: NewsResult }) {
   const { onInterest } = useDemo();
   return (
     <>
@@ -190,6 +197,7 @@ export function Home() {
           {demo()}
         </div>
       </section>
+      <StatsPreview />
       <section
         className={cx("ku-section")}
         style={{
@@ -234,7 +242,6 @@ export function Home() {
               <span
                 className={cx("ku-demo-label")}
                 style={{
-                  color: "#a8a8a0",
                   marginTop: "25px",
                 }}
               >
@@ -293,31 +300,11 @@ export function Home() {
           </p>
         </div>
       </section>
-      <section className={cx("ku-section")}>
-        <div className={cx("ku-container")}>
-          {sectionHead(
-            "Побачимося?",
-            <>
-              Знайомство
-              <br />
-              до першого вересня.
-            </>,
-            <>
-              <Link className={cx("ku-text-link")} href={routeHref("/events")}>
-                Усі події
-              </Link>
-            </>,
-          )}
-          <div className={cx("ku-events-list")}>
-            {DATA.events.slice(0, 3).map((event, itemIndex) => (
-              <EventRow event={event} key={itemIndex} />
-            ))}
-          </div>
-          <span className={cx("ku-demo-label")}>
-            Демонстраційні дати та події
-          </span>
-        </div>
-      </section>
+      <HomeCalendar />
+      <NewsPreview news={news} />
+      <SocialPreview />
+      <StudentCards />
+      <Poll />
       <section
         className={cx("ku-section")}
         style={{
@@ -349,6 +336,16 @@ export function Home() {
             </span>
           </div>
           {<MapGraphic />}
+        </div>
+      </section>
+      <section id="home-materials" className={cx("ku-section")}>
+        <div className={cx("ku-container")}>
+          {sectionHead("Матеріали", <>Три матеріали, які<br />пояснюють КНУКіМ краще.</>)}
+          <div className={cx("ku-materials")}>
+            {DATA.materials.map((material) => <article key={material.id} className={cx("ku-material")}>
+              <span>{material.tag}</span><h3>{material.title}</h3><p>{material.text}</p><strong>{material.label}</strong>
+            </article>)}
+          </div>
         </div>
       </section>
       {<FinalCTA />}

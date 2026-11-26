@@ -1,10 +1,11 @@
 "use client";
 import type { ChangeEvent, MouseEvent, ReactNode } from "react";
 
-import { createContext, useContext, useState } from "react";
+import { createContext, useContext, useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import { emptyFacultyFilters, initialMatch } from "../lib/catalog";
 import type { CourseFilters } from "../lib/catalog";
+import { getDemoEvents, getToday } from "../lib/events";
 const initialState = () => ({
   admissionLevel: "bachelor",
   facultyFiltersOpen: false,
@@ -27,6 +28,14 @@ export type DemoDialog =
     }
   | null;
 function useDemoState() {
+  const [today, setToday] = useState<string | null>(null);
+  useEffect(() => {
+    const refresh = () => setToday(getToday());
+    refresh();
+    const timer = window.setInterval(refresh, 60_000);
+    return () => window.clearInterval(timer);
+  }, []);
+  const events = useMemo(() => today ? getDemoEvents(today) : [], [today]);
   const [state, setState] = useState(initialState);
   const [dialog, setDialog] = useState<DemoDialog>(null);
   const router = useRouter();
@@ -174,6 +183,8 @@ function useDemoState() {
     }));
   }
   return {
+    today,
+    events,
     state,
     dialog,
     setDialog,
