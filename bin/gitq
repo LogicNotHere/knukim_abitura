@@ -1,0 +1,10 @@
+#!/opt/homebrew/bin/python3.12 -I
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, "/Users/vlad/.agents/tools/gitq")
+
+from gitq_tool.cli import main  # noqa: E402
+
+raise SystemExit(main(workspace=Path(__file__).resolve().parents[1]))

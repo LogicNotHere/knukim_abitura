@@ -1,0 +1,9 @@
+{
+  "name": "knukim_abitura",
+  "aliases": {
+    "knukim": ".",
+    "knukim-abitura": "."
+  },
+  "worktree_layout": "repo",
+  "integrate_modes": ["ff"]
+}

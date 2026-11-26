@@ -120,3 +120,19 @@ npm start
 
 Офіційний сайт університету: https://knukim.edu.ua/.
 Повний звіт: [REPORT.md](REPORT.md).
+
+### GitQ
+
+Claude Code та Codex використовують спільний GitQ на цьому Mac.
+Запускайте `bin/gitq` з основного репозиторію.
+Потрібні `/opt/homebrew/bin/python3.12` та `/Users/vlad/.agents/tools/gitq/`.
+
+```bash
+bin/gitq doctor
+bin/gitq status --repo knukim
+bin/gitq policy --repo knukim
+```
+
+Псевдоніми `knukim` та `knukim-abitura` вказують на цей репозиторій.
+Приватні правила GitQ закріплюють `q2012Second` для push.
+GitQ зберігає активний обліковий запис GitHub без змін.
