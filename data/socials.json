@@ -1,0 +1,69 @@
+{
+  "_note": "Официальные соцсети, собраны с https://knukim.edu.ua (ноябрь 2026). Ссылки очищены от трекинговых параметров.",
+  "university": {
+    "label": "Університет",
+    "facebook": "https://www.facebook.com/KNUKiM/",
+    "instagram": "https://www.instagram.com/knu_kim/",
+    "tiktok": "https://www.tiktok.com/@knukim_official",
+    "youtube": "https://www.youtube.com/@knukim_university",
+    "linkedin": "https://www.linkedin.com/school/knukim"
+  },
+  "faculties": [
+    {
+      "key": "ikitb",
+      "label": "Кіно і телебачення",
+      "site": "https://ikitb.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/share/1HVeAcvzXD/",
+      "instagram": "https://www.instagram.com/ikitb_knukim/",
+      "tiktok": "https://www.tiktok.com/@ikitb__knukim"
+    },
+    {
+      "key": "design",
+      "label": "Дизайн і реклама",
+      "site": "https://design.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/share/1CaQZbVMpy/",
+      "instagram": "https://www.instagram.com/design_knukim/",
+      "tiktok": "https://www.tiktok.com/@design_knukim"
+    },
+    {
+      "key": "fzgij",
+      "label": "PR, журналістика та інформаційна політика",
+      "site": "https://fzgij.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/profile.php?id=100076219751208",
+      "instagram": "https://www.instagram.com/fprjip_knukim/",
+      "tiktok": "https://www.tiktok.com/@fprjip_knukim"
+    },
+    {
+      "key": "fmm",
+      "label": "Музичне мистецтво",
+      "site": "https://fmm.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/FMMKNUKIM",
+      "instagram": "https://www.instagram.com/knukim_fmm/",
+      "tiktok": "https://www.tiktok.com/@fmm_knukim"
+    },
+    {
+      "key": "dance",
+      "label": "Хореографічне мистецтво",
+      "site": "https://dance.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/share/1PCzUgvyaA/",
+      "instagram": "https://www.instagram.com/dance_knukim/",
+      "tiktok": "https://www.tiktok.com/@dance.knukim"
+    },
+    {
+      "key": "fimfshb",
+      "label": "Менеджмент і креативні індустрії",
+      "site": "https://fimfshb.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/share/17LHGPWph6/",
+      "instagram": "https://www.instagram.com/fimfishb_knukim/",
+      "tiktok": "https://www.tiktok.com/@fimfishb.knukim"
+    },
+    {
+      "key": "ftke",
+      "label": "Театр, кіно та естрада",
+      "site": "https://ftke.knukim.edu.ua",
+      "facebook": "https://www.facebook.com/profile.php?id=61582626787989",
+      "instagram": "https://www.instagram.com/teatraly_rems_knukim/",
+      "tiktok": "https://www.tiktok.com/@teatraly_rems_knu"
+    }
+  ]
+}
